@@ -1,0 +1,72 @@
+@import "https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap";
+
+:focus {
+    outline: none;
+}
+
+body {
+    background-color: #363636;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Martian Mono', monospace;
+    border: 5px solid;
+    border-color: gray;
+    background-color: #363636;
+    color: white;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Martian Mono', monospace;
+    border: 5px solid;
+    border-color: gray;
+    background-color: #363636;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    display: none;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Martian Mono', monospace;
+    border: 5px solid;
+    border-color: gray;
+    background-color: #363636;
+    color: white;
+    border-radius: 10px;
+}
+
+::selection {
+    background-color: gray;
+    color: #363636;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #363636;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #505050;
+    border: 5px solid;
+    border-color: #363636;
+    border-radius: 10px;
+}

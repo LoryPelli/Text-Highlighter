@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Text Highlighter",
+  "description": "Highlight text on a web page",
+  "version": "1.0.0",
+  "icons": {
+      "16":  "./16x16.png",
+      "32":  "./32x32.png",
+      "48":  "./48x48.png",
+      "128": "./128x128.png"
+    },
+  "action": {
+    "default_icon": {
+      "16":  "./16x16.png",
+      "32":  "./32x32.png",
+      "48":  "./48x48.png",
+      "128": "./128x128.png"
+    },
+    "default_popup": "./index.html"
+  },
+  "permissions": ["activeTab"]
+}
